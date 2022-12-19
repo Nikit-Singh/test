@@ -1,0 +1,104 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import "../styles/contact.scss";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title="Contact" description="Contact" />
+  </head>
+  <body>
+    <main>
+      <section class="container contact" id="contact">
+        <div class="contact-container">
+          <div class="main-title">
+            <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+          </div>
+          <div class="contact-content-con">
+            <div class="left-contact">
+              <p>
+                For any queries please get in touch with me through here. <br />
+                If you'd like to contribute to Speak Your Mind or Pseudo Poets Society
+                and be a part of our community please get in touch and upload your
+                work here.<br />
+                You can also get in touch with me through social media, just follow
+                the links below.
+              </p>
+
+              <div class="contact-icons">
+                <div class="contact-icon">
+                  <a href="https://instagram.com/_meexz_" target="_blank">
+                    <img width="50" height="50" src="/images/insta.png" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/vishruthaa/"
+                    target="_blank"
+                  >
+                    <img width="50" height="50" src="/images/linkedin.png" />
+                  </a>
+                  <a href="https://twitter.com/Vishruthaa1" target="_blank">
+                    <img width="50" height="50" src="/images/twitter.png" />
+                  </a>
+                  <a
+                    href="https://www.youtube.com/channel/UC7qWBpMwrVcLb-AQor9NVQA"
+                    target="_blank"
+                  >
+                    <img width="50" height="50" src="/images/YouTube.png" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="right-contact">
+              <form
+                class="contact-form"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+              >
+                <input type="hidden" name="access_key" value="cd0f7f4a-7899-43ea-b615-5082e5c47e6f">
+                <input type="checkbox" name="botcheck" id="" style="display: none;" />
+                <div class="input-control i-c-2">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Your Name"
+                  />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Your E-mail"
+                  />
+                </div>
+                <div class="input-control">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    required
+                    placeholder="Enter Subject"
+                  />
+                </div>
+                <div class="input-control">
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="15"
+                    rows="8"
+                    placeholder="Message Here..."></textarea>
+                </div>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <div class="send-btn">
+                  <button type="submit" id="send">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
