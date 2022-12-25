@@ -1,18 +1,9 @@
-PseudoPoetsSociety      
-
-### Pseudo Poets Society
-
-![](../styles/menu_icon.png)
-
-*   [Speak Your Mind](https://machinegun221b.github.io/vishruthaa.github.io/index.html)
-*   [Pseudo-Poets Society](https://machinegun221b.github.io/vishruthaa.github.io/pps.html)
-*   [Home](../homepage.html)
-*   Renaissance
-*   About
-*   [Contact](https://machinegun221b.github.io/vishruthaa.github.io/contact.html)
-
-Unknown
--------
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Unknown"
+description: "Unknown"
+year: 2020
+---
 
 The wonder of not knowing doesn't come from knowing  
 It's birthed in the unknown  
@@ -56,5 +47,3 @@ Because once it's shattered
 The earth under no longer holds  
 Neither you  
 Nor them  
-
-_Wanna contribute? Leave a [message](../contact.html)._
