@@ -60,5 +60,3 @@ In vain
 Soundless and alone  
 In pain  
 Always to count on  
-
-_Wanna contribute? Leave a [message](../contact.html)._
