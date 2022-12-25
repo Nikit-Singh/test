@@ -1,18 +1,9 @@
-PseudoPoetsSociety      
-
-### Pseudo Poets Society
-
-![](../styles/menu_icon.png)
-
-*   [Speak Your Mind](https://machinegun221b.github.io/vishruthaa.github.io/index.html)
-*   [Pseudo-Poets Society](https://machinegun221b.github.io/vishruthaa.github.io/pps.html)
-*   [Home](../homepage.html)
-*   Renaissance
-*   About
-*   [Contact](https://machinegun221b.github.io/vishruthaa.github.io/contact.html)
-
-Bones & Soul
-------------
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Bones & Soul"
+description: "Bones & Soul"
+year: 2021
+---
 
 As I stared into her eyes  
 Glaring at my face  
