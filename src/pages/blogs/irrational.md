@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Let’s think about the irrational…*"
 description: "Let’s think about the irrational…*"
-year: 2022
+year: 2021
 ---
 
 Emotions are such a weird thing. You can’t control them, you can’t get rid of them, so much of the time you don’t even know if they’re there! The most you can hope to get out of the whole experience is to learn to regulate them in some fashion, and that’s the highest of the heights you can get to.
