@@ -1,18 +1,9 @@
-PseudoPoetsSociety      
-
-### Pseudo Poets Society
-
-![](../styles/menu_icon.png)
-
-*   [Speak Your Mind](https://machinegun221b.github.io/vishruthaa.github.io/index.html)
-*   [Pseudo-Poets Society](https://machinegun221b.github.io/vishruthaa.github.io/pps.html)
-*   [Home](../homepage.html)
-*   Renaissance
-*   About
-*   [Contact](https://machinegun221b.github.io/vishruthaa.github.io/contact.html)
-
-beautiful monster
------------------
+---
+layout: "../../layouts/BlogPost.astro"
+title: "beautiful monster"
+description: "beautiful monster"
+year: 2019
+---
 
 I feel torn  
 And sewn back together  
@@ -90,4 +81,3 @@ And she was it
 And it became you  
 As all the pronouns got lost in the mess that was our mind  
 
-_Wanna contribute? Leave a [message](../contact.html)._
