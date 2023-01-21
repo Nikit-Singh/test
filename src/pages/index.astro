@@ -1,7 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Contribute from "../components/Contribute.astro";
-import Header from "../components/Header.astro";
+import Header from "../components/Header";
 
 const posts = await Astro.glob("../pages/blogs/*.md");
 ---
@@ -113,7 +113,7 @@ const posts = await Astro.glob("../pages/blogs/*.md");
 		</style>
 	</head>
 	<body>
-		<Header title="Speak Your Mind" />
+		<!-- <Header client:load title="Speak Your Mind" fullWidth={false} /> -->
 		<main>
 			<Contribute />
 			<ul>

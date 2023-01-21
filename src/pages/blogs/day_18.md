@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 18: What?"
 description: "Day 18: What?"
-year: 2022
+date: "2022-12-22"
 ---
 
 What makes an eccentric? Who defines what an eccentric is? Well, the answer to the second question is easy. You don’t even have to waste a second thinking about it. Society does. Values and perceptions that have trickled down through time stick with us to this day and we have a very good idea of what is to be expected of a person who is supposedly, an eccentric. But how exactly do all of us come up with this same idea? No deviations among anybody?

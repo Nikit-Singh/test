@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 3: Who are you, really?"
 description: "Day 3: Who are you, really?"
-year: 2022
+date: "2022-12-07"
 ---
 
 What is it about dogs that we love so much? And is it why, while some of us love dogs, there’s a bit of a weird obsession over cats too? I mean why is it that we have this distinction of ‘dog people’ and ‘cat people’? There are of course people who love them both, no one’s disputing that. But isn’t it just kinda, like a tiny bit weird that there’s a distinction and we stand behind it calling ourselves dog people and cat people?

@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 11: And Away from a Dystopian Future"
 description: "Day 11: And Away from a Dystopian Future"
-year: 2022
+date: "2022-12-15"
 ---
 
 The world is filled with people, we’re at 8 billion now. Although research into current birth and death rates shows that the human population will peak in this century, in the event that we become a space-faring civilization, the population is bound to and needs to rise, way, way higher, i.e., we’re gonna need a lot more humans.

@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Into The Unknown: The Truth About the Universe"
 description: "Humanity’s quest in search of the Answer. The secrets of the universe and our minds."
-year: 2019
+date: "2019-03-08"
 ---
 
 The universe itself is billions of years old, while the earliest human only first appeared a couple of million years ago on this tiny, insignificant spec of dust in this ever-expanding, never-ending universe which in turn is marching through its own life. But, with the advent of the more evolved human, came science, technology, and innovation; we made fire, built a wheel, carved on stone. With the continuous evolution of human evolved science, technology and philosophy. Even in this relatively short existence of ours, we came to ask many questions that even with the evolution and propagation of philosophy, we have failed to answer yet.

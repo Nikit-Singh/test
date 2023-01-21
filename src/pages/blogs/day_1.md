@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 1: Ramble"
 description: "Day 1: Ramble"
-year: 2022
+date: "2022-12-05"
 ---
 
 Writing, like everything else, is a skill that is honed. It is not something that we are born with, although of course, our genetic composition might play a role in determining your starting point, i.e., how well you may be able to write when you kick off, and your endpoint, i.e., how good you may be able to get at it. Are there limits to any of this? Probably not, but the curve definitely is logarithmic, so your progress will plateau at some point.

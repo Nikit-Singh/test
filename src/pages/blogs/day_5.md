@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 5: PERFECT!"
 description: "Day 5: PERFECT!"
-year: 2022
+date: "2022-12-09"
 ---
 
 I can not count the number of things that I’ve left unfinished, college being the least important thing on that list. And the weird thing is that all of the things that I started on, to work, on my own, were and still remain to be very important things to me. When I start on something, from the outlining process and brainstorming to the rough draft, for some reason I need it all to be perfect. And that is a bitch.

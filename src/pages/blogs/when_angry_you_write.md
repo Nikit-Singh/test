@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "And when you’re angry… you write…"
 description: "And when you’re angry… you write…"
-year: 2021
+date: "2021-06-02"
 ---
 I quote from a piece of widely cnsumed writing the following: “He was a boy, he took longer to grow up.”
 

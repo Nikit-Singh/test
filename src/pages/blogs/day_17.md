@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 17: Back to You"
 description: "Day 17: Back to You"
-year: 2022
+date: "2022-12-21"
 ---
 
 The reason I started to write a piece a day for a hundred days is to be able to better process my thoughts and put them out there more. To try and put as much of myself out there as possible and in that process give my writing a boost. Writing is the best way to make your way through your thoughts, or so I believe.

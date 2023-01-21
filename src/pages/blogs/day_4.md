@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 4: May the FOURTH be ever on your side"
 description: "Day 4: May the FOURTH be ever on your side"
-year: 2022
+date: "2022-12-08"
 ---
 
 As people, we don’t like what we’re confused by. What we don’t understand or cannot seem to comprehend scares us, as it should because we can not classify something as a threat or a non-threat if we can’t really make sense of it, can’t assign it a threat level. And of course, we’re not gonna do well in that situation.

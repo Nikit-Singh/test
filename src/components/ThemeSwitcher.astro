@@ -1,0 +1,46 @@
+---
+import { Icon } from "astro-icon";
+---
+
+<button id="theme-switcher" type="button">
+  <div id="icon-theme-light">
+    <Icon name="sun-dim" pack="ph" class="h-8" />
+    <span class="sr-only">Use light theme</span>
+  </div>
+  <div id="icon-theme-dark" class="hidden">
+    <Icon name="moon" pack="ph" class="h-8" />
+    <span class="sr-only">Use dark theme</span>
+  </div>
+</button>
+
+<script>
+  import invariant from "tiny-invariant";
+  const button = document.querySelector("#theme-switcher");
+  invariant(button, "button should not be null");
+  const isDarkTheme = () => document.documentElement.classList.contains("dark");
+  const themeCurrent = () => (isDarkTheme() ? "dark" : "light");
+  const themeNext = () => (!isDarkTheme() ? "dark" : "light");
+  const updateIcon = () => {
+    document
+      .querySelector(`#icon-theme-${themeCurrent()}`)
+      ?.classList.add("hidden");
+    document
+      .querySelector(`#icon-theme-${themeNext()}`)
+      ?.classList.remove("hidden");
+  };
+  button.addEventListener("click", () => {
+    if (themeNext() === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+    localStorage.setItem("theme", themeNext());
+    updateIcon();
+  });
+  updateIcon();
+</script>
+<style>
+  :global(.fixed-header) #theme-switcher {
+    @apply ml-0 scale-100;
+  }
+</style>

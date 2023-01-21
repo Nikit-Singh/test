@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Humanity: How far a/b…head are we?"
 description: "Humanity: How far a/b…head are we?"
-year: 2021
+date: "2021-02-20"
 ---
 Sean Carrol in his introduction to the podcast he hosted back in August of 2020 with Nick Bostrom, says how it could be considered surprising to have found ourselves so early on in the history of human civilization as he performs his segue into the main topic of his podcast.
 

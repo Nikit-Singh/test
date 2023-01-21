@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 10: Let’s take a moment"
 description: "Day 10: Let’s take a moment"
-year: 2022
+date: "2022-12-14"
 ---
 
 If you could go anywhere in the world, where would you go? If time, money, none of it was a factor, what would you decide? Would you go to a calm, peaceful place where you could lie around and relax? Or would you go on an adventure, figuring out your path as and when you went? Or would you be so organized, you’d know exactly what you’d be doing, to the minute, 3 months before you even booked the tickets? Would you want to be backpacking or would you want to spend all your time in a luxury resort?

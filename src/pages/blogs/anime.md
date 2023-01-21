@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Manga or Philosophical works of Art?"
 description: "Manga or Philosophical works of Art?"
-year: 2022
+date: "2022-04-15"
 ---
 
 In today’s schools, education includes the lauded works of Shakespeare and the like, it also includes books that are thought to be relevant in enhancing the student’s understanding of broader concepts. An interesting example is the fact that Trevor Noah’s Born a Crime has made it to this list, for a lot of reasons including the writing style and the fact that it is a very modern recount of a boy growing up in apartheid and segregation and how he goes onto make a life of his own. The story itself is riveting, but upon studying it, the lessons you could gain from it are innumerable. And this is true of more than just this book.

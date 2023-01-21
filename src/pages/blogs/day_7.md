@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 7: Right/Wrong? Part I"
 description: "Day 7: Right/Wrong? Part I"
-year: 2022
+date: "2022-12-11"
 ---
 
 What is right? What is wrong? Just perceptions of our mind, right? There is no real right or wrong. Then why are some of us so hell bent on “doing the right thing”? What does that even mean?

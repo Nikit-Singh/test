@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 12: Not a Place at the Table, But a Place in the World"
 description: "Day 12: Not a Place at the Table, But a Place in the World"
-year: 2022
+date: "2022-12-17"
 ---
 
 Okay! So! When we think of changes in the future, what are the main things we may think about? It can be anything. From the different modes of education that we may witness in the future to the different, new kinds of sports we may have or how we may play the same sports we have today but in different ways - either with new equipment or maybe certain performance enhancing substances may become common practice, we may increase our endurance in some ways, maybe we’d have a completely new arena for us to be able to view the games with more comfort and better detail (I mean we’ve to this day stuck with the Roman times, when will it be time for an upgrade?). Anything could happen right? Entropy is all over the place. It’s chaos.

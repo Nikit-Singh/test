@@ -2,12 +2,8 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Cowboy Bebop"
 description: "Cowboy Bebop"
-year: 2022
+date: "2022-11-11"
 ---
-
-### Thoughts -
-
-  
 
 ### Introduction
 
@@ -25,40 +21,34 @@ There are multiple things you can observe in the show.
 
 The first being the artists attempt to create a non traditional, never been done before genre which combines a bunch of genres which itself, I believe has to do with the naming of the show. Let me explain. The word “bebop” refers to a for of jazz which can be called non conventional. While most jazz was oriented towards dance, this form of jazz to bring out the best in the performers. Here is a definition from wikipedia about the same -
 
-_Bebop or bop is a style of jazz developed in the early-to-mid-1940s in the United States. The style features compositions characterised by a fast tempo, complex chord progressions with rapid chord changes and numerous changes of key, instrumental virtuosity, and improvisation based on a combination of harmonic structure, the use of scales and occasional references to the melody.  
+> Bebop or bop is a style of jazz developed in the early-to-mid-1940s in the United States. The style features compositions characterised by a fast tempo, complex chord progressions with rapid chord changes and numerous changes of key, instrumental virtuosity, and improvisation based on a combination of harmonic structure, the use of scales and occasional references to the melody.  
   
-Bebop developed as the younger generation of jazz musicians expanded the creative possibilities of jazz beyond the popular, dance-oriented swing music-style with a new "musician's music" that was not as danceable and demanded close listening.\[1\] As bebop was not intended for dancing, it enabled the musicians to play at faster tempos. Bebop musicians explored advanced harmonies, complex syncopation, altered chords, extended chords, chord substitutions, asymmetrical phrasing, and intricate melodies. Bebop groups used rhythm sections in a way that expanded their role._
+> Bebop developed as the younger generation of jazz musicians expanded the creative possibilities of jazz beyond the popular, dance-oriented swing music-style with a new "musician's music" that was not as danceable and demanded close listening.\[1\] As bebop was not intended for dancing, it enabled the musicians to play at faster tempos. Bebop musicians explored advanced harmonies, complex syncopation, altered chords, extended chords, chord substitutions, asymmetrical phrasing, and intricate melodies. Bebop groups used rhythm sections in a way that expanded their role.
 
 And just like the music, the show is a new genre in itself.
 
 There are some cut screens during the show, meaning after a scene ends, a screen comes in which usually says “Cowboy Bebop” but is accompanied by some extra text,(I guess cut scene is just a name I gave it) and following is one of the extra texts it has -
 
-_in 2071 in the universe.  
-  
-The bounty hunters, who are gathering in spaceship "BEBOP", will play freely without fear of risky things.  
-  
-They must create new dreams and films by breaking traditional styles.  
-  
-The work, which becomes a new genre itself, will be called COWBOY BEBOP_
-
-__
+> in 2071 in the universe.  
+  The bounty hunters, who are gathering in spaceship "BEBOP", will play freely without fear of risky things.  
+  They must create new dreams and films by breaking traditional styles.  
+  The work, which becomes a new genre itself, will be called COWBOY BEBOP
 
 And the show is indeed one of a kind, can’t be put into a definite genre, it has created a genre for itself. In fact, If I were to create or build something unique in the future, I would name it The tribute to Cowboy bebop.
 
-  
 The second thing that stands out is the rich mysterious past of each character in the show and the lessons about the past.
 
 We all have pasts, and it affects, day after day. It influences our decisions, decided our love and hatred, decides the way we interact/behave/trust people. And the show beautifully showcases this phenomenon. It puts it on bare display how each main characters contradicting past lives have shaped them and how it influences them. I really want to get deep into in this, But I cannot do so without giving spoilers, so maybe I’ll make separate post for that in the future.
 
 But also, at the same time, it emphasises the importance of not dwelling on the past and moving on. After all, the 4 person team or 5 if you include an adorable corgi dog choose the cowboy bounty hunter life to never look back, to move from one bounty to the next, to constantly keep crunching and not think about their past. Thats one of the main lessons of the show -
 
-![](../styles/neverleave.png)
+![](/images/neverleave.png)
 
 Never leave things in the fridge
 
 Just like how things left in fridge for a long time rot and turn toxic, a person who is always living in the past reminiscing about it, will rot, decay and one day loose himself and turn toxic.
 
-![](../styles/carryweight.png)
+![](/images/carryweight.png)
 
 The key is to move forward no matter how difficult it is, you have to carry the weight of your past and move forward.
 
@@ -77,10 +67,4 @@ In summary this show is an amazing homage to pop culture, jazz and a bunch of ot
 
 If all these reasons do not compel you to watch the show, then you must watch it for Spike, A cigarette smoking, cool head, who loves to do things that kill him with a bunch of flawed people that are almost borderline the same in their own way.
 
-__
-
-__
-
-_Written By Hari Charan_
-
-__
+_- Written By Hari Charan_

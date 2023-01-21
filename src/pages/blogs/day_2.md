@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 2: Dystopia/Realism?"
 description: "Day 2: Dystopia/Realism?"
-year: 2022
+date: "2022-12-06"
 ---
 
 What do you do when you wanna do so much, but feel like you’re absolutely unable to do anything?  

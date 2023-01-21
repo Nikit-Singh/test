@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Nothing silly here."
 description: "Nothing silly here."
-year: 2021
+date: "2021-09-30"
 ---
 Here’s something silly. Probably silly to you and only you, and by “you”, I mean the world out there. Well, it’s not my fault that all that isn’t me is a You to me. (Wink wink)
 

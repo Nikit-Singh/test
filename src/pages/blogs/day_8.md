@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 8: Retrospective"
 description: "Day 8: Retrospective"
-year: 2022
+date: "2022-12-12"
 ---
 
 So it’s been a week since I started writing an article a day. They haven’t all had the right structure or followed the rules of writing so far. But even still, I do have some that I really liked from the past week. I will be picking a maximum of three articles per week that I liked and highlighting them on my Instagram stories.

@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Hermaphrodites: The sexually evolved superiors"
 description: "The next successor?"
-year: 2020
+date: "2020-12-19"
 ---
 
 _We’ve never been great with change and our initial reaction to something new, has almost always exclusively been fear._

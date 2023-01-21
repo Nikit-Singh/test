@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 12: Not a Place at the Table, But a Place in the World"
 description: "Day 12: Not a Place at the Table, But a Place in the World"
-year: 2022
+date: "2022-12-16"
 ---
 
 As a kid, my Mother made sure I knew we were all equal - men, women; girls, boys. She made sure I wasn’t presumptuous or insecure about my strengths, that I wouldn’t doubt them simply because I was born a girl. My aunt always said, “There’s something to be learned from everyone. No matter how young or old, each person knows at least one thing that you don’t. So keep your mind open.” My grandparents are the same, which is why their kids grew up to be independent, quite intensely so.

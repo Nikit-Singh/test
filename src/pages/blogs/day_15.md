@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Preamble"
 description: "Preamble"
-year: 2022
+date: "2022-12-19"
 ---
 
 Avoiding a dystopian future basically entails this: avoiding the paths that may lead to it. First, to know what to avoid we’d need to define what a dystopian future actually is. And to think of a future that far ahead, what we need to do is understand what we may see in the near future, and what changes we may expect in the short term. And to then go down that path, understanding what each of these things may lead toward.

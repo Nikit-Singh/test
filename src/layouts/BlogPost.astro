@@ -8,28 +8,37 @@ export interface Props {
   frontmatter: {
     title: string;
     description: string;
-  }
+  };
 }
 
 const { frontmatter } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <BaseHead title={frontmatter.title} description={frontmatter.description || frontmatter.title} />
+    <BaseHead
+      title={frontmatter.title}
+      description={frontmatter.description || frontmatter.title}
+    />
   </head>
-  <body>
-    <Header title="Speak Your Mind" />
-    <div class="row">
-      <h2 class="bold">
-        {frontmatter.title}
-      </h2>
-      <article class="content">
-        <slot />
+  <body class="dark:bg-neutral-900">
+    <!-- <Header client:load title="Speak Your Mind" /> -->
+    <div class="max-w-2xl mx-auto my-10">
+      <article
+        class="prose prose-lg prose-neutral dark:prose-invert mx-auto border-b pb-10 border-neutral-500"
+      >
+        <h1
+          class="text-4xl leading-tight mb-10 pb-10 border-b border-neutral-500"
+        >
+          {frontmatter.title}
+        </h1>
+        <slot class="" />
       </article>
+      <div class="px-[11px] mt-14">
+        <Contribute />
+      </div>
     </div>
-    <Contribute />
   </body>
 </html>

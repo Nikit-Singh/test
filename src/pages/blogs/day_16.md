@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "what's on the docket?"
 description: "what's on the docket?"
-year: 2022
+date: "2022-12-20"
 ---
 
 This is a layout of our agenda: what we’ll be discussing in the coming days. In no particular order:

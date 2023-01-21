@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 14: A New Journey"
 description: "Day 14: A New Journey"
-year: 2022
+date: "2022-12-18"
 ---
 
 As a society, we formulate structures and define values and edifices that hold everything in place. Society itself is one such structure. But with time we evolve, biologically yes, but also the world as a whole - either hand in hand or one after the other, the relative rates of the two are debatable. And when that evolution occurs, what it means is that change is afoot. And evolution is a constant and continuous process, ergo change is an active occurrence.

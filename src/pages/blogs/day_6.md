@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 6: Unfinished"
 description: "Day 6: Unfinished"
-year: 2022
+date: "2022-12-10"
 ---
 
 For today’s installation, I’d like to draw from yesterday’s premise, i.e., from the ‘Perfect’ piece, “I can not count the number of things that I’ve left unfinished.” All of these things that come to mind that I’ve left unfinished are very important things to me. They range from music pieces to EMG prosthetics.

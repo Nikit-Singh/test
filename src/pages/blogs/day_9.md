@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Day 9: Right/Wrong? Part II"
 description: "Day 9: Right/Wrong? Part II"
-year: 2022
+date: "2022-12-13"
 ---
 
 Doing the right thing doesn’t mean being nice. It doesn’t even always mean being a decent human being. Sometimes they’re counterintuitive. A lot of times, they’re very difficult, emotionally. Like pulling the plug on a family member or euthanizing. Or leaving your crying infant alone so they can learn to self-soothe or having to have a leash on your dog, ultimately, for their own good.

@@ -1,107 +1,17 @@
 ---
-export interface Props {
-	title: string;
-}
+import ThemeSwitcher from "./ThemeSwitcher.astro";
 
 const { title } = Astro.props;
 ---
 
-<header>
-  <nav>
-    <h3 class="sym"><a href="/">{title}</a></h3>
-    <div class="menu">
-      <img src="/images/menu_icon.png" />
-      <div class="nav-links">
-        <ul>
-          <li><a href="/">Speak Your Mind</a></li>
-          <li><a href="pps">Pseudo-Poets Society</a></li>
-          <li><a href="homepage">Home</a></li>
-          <li><a href="#">Renaissance</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
+<header class="dark:text-neutral-200 text-neutral-800 my-4 max-w-3xl mx-auto">
+  <nav class="flex justify-between items-center">
+    <ul class="flex gap-4 [&>*]:px-3 [&>*]:py-1 hover:[&>*]:bg-neutral-800 [&>*]:rounded">
+      <li><a href="home">Home</a></li>
+      <li><a href="sym">Speak Your Mind</a></li>
+      <li><a href="pps">Pseudo-Poets Society</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+    <ThemeSwitcher />
   </nav>
 </header>
-
-<style>
-  header {
-    min-height: 10vh;
-    width: 100%;
-    box-shadow: 0 0 1px 0;
-  }
-
-  .sym {
-    position: absolute;
-    top: 7%;
-    left: 50%;
-    transform: translate(-50%, -93%);
-    font-size: 26px;
-    text-align: center;
-  }
-
-  .sym > a {
-    color: #000;
-    text-decoration: none;
-  }
-
-  .menu {
-    float: left;
-    list-style: none;
-    padding: 30px;
-  }
-
-  .menu.active {
-    float: left;
-    list-style: none;
-    padding: 30px;
-    background-image: url("close_icon.png");
-  }
-
-  nav img {
-    width: 25px;
-  }
-
-  .menu li {
-    list-style: none;
-  }
-
-  .menu:hover > .nav-links {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-
-  .nav-links a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-
-  .nav-links a:hover {
-    background-color: #f1f1f1;
-  }
-
-  /* Customizing for Phones*/
-
-  @media (max-width: 700px) {
-    .sym {
-      position: absolute;
-      top: 7%;
-      left: 50%;
-      transform: translate(-50%, -93%);
-      font-size: 19px;
-      text-align: center;
-      padding-left: 10px;
-    }
-  }
-</style>

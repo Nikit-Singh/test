@@ -1,7 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Contribute from "../components/Contribute.astro";
-import Header from "../components/Header.astro";
+import Header from "../components/Header";
 ---
 
 <!DOCTYPE html>
@@ -87,7 +87,7 @@ import Header from "../components/Header.astro";
     </style>
   </head>
   <body>
-    <Header title="Pseudo-Poets Society" />
+    <!-- <Header client:load title="Pseudo-Poets Society" /> -->
     <main>
       <Contribute />
       <ul>
