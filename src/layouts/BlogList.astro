@@ -1,10 +1,18 @@
 ---
 import dayjs from "dayjs";
+import type { MarkdownInstance } from "astro";
+
 import BaseHead from "../components/BaseHead.astro";
 import Contribute from "../components/Contribute.astro";
 import Header from "../components/Header.astro";
 
-const posts = await Astro.glob("../pages/blogs/*.md");
+export interface Props {
+  title: string;
+  description: string;
+  posts: MarkdownInstance<Record<string, any>>[];
+}
+
+const { posts, title, description } = Astro.props;
 
 posts.sort((a, b) => dayjs(b.frontmatter.date) - dayjs(a.frontmatter.date));
 
@@ -27,14 +35,14 @@ groupedPostArray.sort((a, b) => b.year - a.year);
 <!DOCTYPE html>
 <html lang="en" class="dark">
   <head>
-    <BaseHead title="Speak Your Mind" description="Speak Your Mind Home Page" />
+    <BaseHead title={title} description={description} />
   </head>
 
-  <body class="dark:bg-neutral-900">
+  <body class="dark:bg-neutral-900 px-4 md:px-0">
     <Header />
     <main class="max-w-3xl mx-auto my-20">
       <div
-        class="flex flex-col divide-y dark:divide-neutral-800 divide-neutral-200 border-t border-b dark:border-neutral-800 border-neutral-300"
+        class="flex flex-col divide-y dark:divide-neutral-800 divide-neutral-500 border-t border-b dark:border-neutral-800 border-neutral-500"
       >
         {
           groupedPostArray.map((group) => (
@@ -42,7 +50,7 @@ groupedPostArray.sort((a, b) => b.year - a.year);
               <h2 class="text-sm text-neutral-400 dark:text-neutral-500 py-3">
                 {group.year}
               </h2>
-              <div class="ml-36 flex flex-col w-full divide-y dark:divide-neutral-800 divide-neutral-300">
+              <div class="ml-6 sm:ml-36 flex flex-col w-full divide-y dark:divide-neutral-800 divide-neutral-500">
                 {group.posts.map((post) => (
                   <a
                     href={post.url}
@@ -60,9 +68,7 @@ groupedPostArray.sort((a, b) => b.year - a.year);
           ))
         }
       </div>
-      <div class="mt-14">
-        <Contribute />
-      </div>
+      <Contribute />
     </main>
   </body>
 </html>

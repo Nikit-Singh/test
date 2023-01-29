@@ -1,17 +1,18 @@
 ---
 import ThemeSwitcher from "./ThemeSwitcher.astro";
-
-const { title } = Astro.props;
 ---
 
-<header class="dark:text-neutral-200 text-neutral-800 my-4 max-w-3xl mx-auto">
-  <nav class="flex justify-between items-center">
-    <ul class="flex gap-4 [&>*]:px-3 [&>*]:py-1 hover:[&>*]:bg-neutral-800 [&>*]:rounded">
-      <li><a href="home">Home</a></li>
-      <li><a href="sym">Speak Your Mind</a></li>
-      <li><a href="pps">Pseudo-Poets Society</a></li>
-      <li><a href="contact">Contact</a></li>
-    </ul>
+<header
+  class="dark:text-neutral-200 text-neutral-800 bg-transparent max-w-3xl my-8 mx-auto"
+>
+  <nav class="flex justify-between items-center -mx-3 sm:pr-3">
+    <div
+      class="flex flex-row items-center gap-2 sm:gap-4 [&>*]:px-1 sm:[&>*]:px-3 [&>*]:py-1 hover:[&>*]:bg-neutral-200 hover:dark:[&>*]:bg-neutral-800 [&>*]:rounded sm:text-lg"
+    >
+      <a href="/">Speak Your Mind</a>
+      <a href="/pps">Pseudo-Poets Society</a>
+      <a href="/contact">Contact</a>
+    </div>
     <ThemeSwitcher />
   </nav>
 </header>

@@ -14,33 +14,47 @@ import { Icon } from "astro-icon";
 </button>
 
 <script>
-  import invariant from "tiny-invariant";
+  type Themes = "light" | "dark";
+
   const button = document.querySelector("#theme-switcher");
-  invariant(button, "button should not be null");
-  const isDarkTheme = () => document.documentElement.classList.contains("dark");
-  const themeCurrent = () => (isDarkTheme() ? "dark" : "light");
-  const themeNext = () => (!isDarkTheme() ? "dark" : "light");
-  const updateIcon = () => {
+
+  // Get current theme
+  const theme = (): Themes => {
+    if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+      return localStorage.getItem("theme") as Themes;
+    }
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    }
+    return "light";
+  };
+
+  // Get the alternate theme
+  const otherTheme = (currentTheme: Themes) =>
+    currentTheme === "dark" ? "light" : "dark";
+
+  // Change the icons
+  const updateIcon = (newTheme: Themes) => {
+    document.querySelector(`#icon-theme-${newTheme}`)?.classList.add("hidden");
     document
-      .querySelector(`#icon-theme-${themeCurrent()}`)
-      ?.classList.add("hidden");
-    document
-      .querySelector(`#icon-theme-${themeNext()}`)
+      .querySelector(`#icon-theme-${otherTheme(newTheme)}`)
       ?.classList.remove("hidden");
   };
-  button.addEventListener("click", () => {
-    if (themeNext() === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
+
+  // Set the theme to the provided theme
+  const setTheme = (theme: Themes) => {
+    if (theme === "light") {
       document.documentElement.classList.remove("dark");
+    } else {
+      document.documentElement.classList.add("dark");
     }
-    localStorage.setItem("theme", themeNext());
-    updateIcon();
+    updateIcon(theme);
+    localStorage.setItem("theme", theme);
+  };
+
+  button.addEventListener("click", (e) => {
+    setTheme(otherTheme(theme()));
   });
-  updateIcon();
+
+  setTheme(theme());
 </script>
-<style>
-  :global(.fixed-header) #theme-switcher {
-    @apply ml-0 scale-100;
-  }
-</style>

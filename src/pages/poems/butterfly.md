@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Butterfly"
 description: "Butterfly"
-year: 2021
+date: "2021-01-02"
 ---
 
 You take some clothes  

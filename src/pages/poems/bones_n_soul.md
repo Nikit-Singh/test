@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Bones & Soul"
 description: "Bones & Soul"
-year: 2021
+date: "2021-01-01"
 ---
 
 As I stared into her eyes  

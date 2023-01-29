@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "beautiful monster"
-description: "beautiful monster"
-year: 2019
+title: "Beautiful Monster"
+description: "Beautiful Monster"
+date: "2019-01-01"
 ---
 
 I feel torn  

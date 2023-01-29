@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Unknown"
 description: "Unknown"
-year: 2020
+date: "2020-01-01"
 ---
 
 The wonder of not knowing doesn't come from knowing  

@@ -2,7 +2,6 @@
 import BaseHead from "../components/BaseHead.astro";
 import Contribute from "../components/Contribute.astro";
 import Header from "../components/Header.astro";
-import "../styles/blog.scss";
 
 export interface Props {
   frontmatter: {
@@ -23,22 +22,20 @@ const { frontmatter } = Astro.props;
       description={frontmatter.description || frontmatter.title}
     />
   </head>
-  <body class="dark:bg-neutral-900">
-    <!-- <Header client:load title="Speak Your Mind" /> -->
-    <div class="max-w-2xl mx-auto my-10">
+  <body class="dark:bg-neutral-900 px-4 md:px-0">
+    <Header />
+    <div class="max-w-3xl mx-auto mt-12 sm:mt-20 mb-10">
       <article
-        class="prose prose-lg prose-neutral dark:prose-invert mx-auto border-b pb-10 border-neutral-500"
+        class="prose sm:prose-lg prose-neutral max-w-3xl dark:prose-invert mx-auto border-b pb-10 border-neutral-500"
       >
         <h1
-          class="text-4xl leading-tight mb-10 pb-10 border-b border-neutral-500"
+          class="text-3xl sm:text-4xl leading-tight mb-10 pb-10 border-b border-neutral-500"
         >
           {frontmatter.title}
         </h1>
         <slot class="" />
       </article>
-      <div class="px-[11px] mt-14">
-        <Contribute />
-      </div>
+      <Contribute />
     </div>
   </body>
 </html>
